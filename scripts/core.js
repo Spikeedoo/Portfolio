@@ -15,4 +15,10 @@ $(document).ready(function(){
         $('#overlay').fadeOut("slow");
         $('#maintainer').animate({opacity: "1"}, "slow");
     });
+
+    let maintainer = document.getElementById("maintainer");
+    maintainer.classList.add("animated", "fadeInDown");
+    maintainer.addEventListener('animationend', function() {
+        maintainer.classList.remove("animated", "fadeInDown");
+    });
 });

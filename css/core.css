@@ -2,6 +2,30 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
 
+@font-face {
+    font-family: bebas-bold;
+    src: url(../assets/BebasNeue-Bold.ttf);
+}
+
+@font-face {
+    font-family: bebas-book;
+    src: url(../assets/BebasNeue-Book.ttf);
+}
+
+@font-face {
+    font-family: bebas-light;
+    src: url(../assets/BebasNeue-Light.ttf);
+}
+
+@font-face {
+    font-family: bebas-reg;
+    src: url(../assets/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: bebas-thin;
+    src: url(../assets/BebasNeue-Thin.ttf);
+}
 
 @media only screen and (max-width: 768px) {
     #maintainer {
@@ -15,5 +39,8 @@
     }
     #intro-container {
         height: 75vh;
+    }
+    #main-header {
+        text-align: center;
     }
 }
